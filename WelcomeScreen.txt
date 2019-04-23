@@ -1,0 +1,12 @@
+
+
+#SC Welcome-PDA.08 WA=5
+.C Atime=1800 PE
+.T 0,* "DIGI SERVICES"
+.T 1,* "VERSION 1.43.1.2"
+.T 2,* "August 14 2017"
+.T 3,* "TJ MAXX"
+.T 5,* "(C) COPYRIGHT 2017"
+.T 6,* "STORE SYSTEMS"
+.T 7,* "THE TJX COMPANIES"
+#END

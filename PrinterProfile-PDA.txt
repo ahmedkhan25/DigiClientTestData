@@ -1,0 +1,16 @@
+#SC PrinterProfile-PDA
+.T 0,* "SELECT STOCK"
+.B 1,0 "068" N=printer V=172.26.202.68 K=068 BOX DEFAULT
+.T 1,9 " - MARKDOWNS"
+
+.T 2,9 " - "
+
+.T 3,9 " - "
+.T 4,* "------------------------"
+.B 5,0 "Markdowns" N=stock V=M K=M QU W=9
+.B 5,12 "Stickers" N=stock V=S K=M QU W=9
+.B 6,0 "Hang Tag" N=stock V=T K=M QU W=9
+.B 6,12 "Transfers" N=stock V=TRANSFER K=M QU W=9
+.B 7,0 "Price Adj" N=stock V=P K=M QU W=9
+.B 10,* "OK" N=exit V=exit W=7 K=e BO QU
+#END
